@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="vertualServer">
+    <serverData>
+      <paths name="vertualServer">
+        <serverdata>
+          <mappings>
+            <mapping deploy="PhotographyOnlineSystem" local="$PROJECT_DIR$" web="/PhotographyOnlineSystem" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

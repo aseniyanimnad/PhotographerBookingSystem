@@ -1,0 +1,283 @@
+@charset "ISO-8859-1";
+
+@import url("https://use.fontawesome.com/releases/v5.0.11/css/all.css");
+
+/*#slideShow {*/
+    /*width: 100%;*/
+    /*height: 400px;*/
+/*}*/
+
+#header ul {
+    background-color: #ff3300;
+}
+
+#header ul li a{
+    color: white;
+}
+
+#SideImg img {
+    width: 600px;
+    height: 350px;
+    margin-right: 200px;
+}
+
+.container-fluid {
+    width: 100%;
+    height: 200px;
+}
+
+#middle p{
+    -moz-text-size-adjust: 10%;
+}
+
+#Mlogo{
+    width: 100px;
+    height: 40px;
+}
+
+#Cato {
+    color: red;
+}
+
+#logo {
+    padding-right: 500px;
+}
+
+#logoImg {
+    width: 100px;
+    height: 20px;
+}
+
+#middle ul li {
+    font-family: Bahnschrift;
+}
+
+#Category div h6 {
+    font-family: BlinkMacSystemFont;
+}
+
+#Plans .card-header {
+    background-color: #ff6700;
+}
+
+#Plans h5 {
+    color: white;
+    text-align: center;
+    font-family: Britannic Bold;
+}
+
+#Plans h6 {
+    text-align: center;
+}
+
+.sub {
+    color: black;
+    font-size: x-small;
+    font-family: Bell MT;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #fafafa;
+}
+
+.container {
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 0 2rem 2rem;
+}
+
+.heading {
+    font-family: "Montserrat", Arial, sans-serif;
+    /*font-size: small;*/
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+    padding: 3.5rem 0;
+    color: #1a1a1a;
+}
+
+.heading span {
+    display: block;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    /* Compensate for excess margin on outer gallery flex items */
+    margin: -1rem -1rem;
+}
+
+.gallery-item {
+    /* Minimum width of 24rem and grow to fit available space */
+    flex: 1 0 24rem;
+    /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+    margin: 1rem;
+    box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+}
+
+.gallery-image {
+    display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+    transform: scale(1.15);
+}
+
+/*
+
+/*The following rule will only run if your browser supports CSS grid.*/
+
+/*Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling.*/
+
+/**!*/
+
+@supports (display: grid) {
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 10fr));
+        grid-gap: 10px;
+    }
+
+    .gallery,
+    .gallery-item {
+        margin: 0;
+    }
+}
+
+h2 {
+    font-family: "Montserrat", Arial, sans-serif;
+}
+
+#teamName {
+    text-align: right;
+    padding-right: 100px ;
+    padding-top: 10px ;
+}
+
+#PlanName {
+    text-align: left;
+    padding-left: 50px ;
+}
+
+#exploreName {
+    text-align: left;
+    padding-left: 50px ;
+    padding-top: 20px ;
+}
+
+#toTop {
+    padding-right: 50px ;
+}
+
+#signUpForm {
+    background-color: #ffe8a1;
+    width: 100%;
+}
+
+#btnLogin {
+    /*padding-left: 100px;*/
+}
+
+#imgIcon {
+    width: 20px;
+    height: 20px;
+}
+
+#contactDetails {
+    background-color: #ff6100;
+    width: 600px;
+    height: 300px;
+}
+
+#adminLoginForm {
+    background-color: black;
+}
+
+#contactNames {
+    color: white;
+    width: 360px;
+    border-style: inset;
+    border-color: black;
+    padding-left: 100px;
+}
+
+#imageIcon {
+    width: 100px;
+    padding-left: 50px;
+}
+
+#adminContent {
+    color: white;
+}
+
+/*#ContactForm {*/
+    /*padding-left: 200px;*/
+/*}*/
+
+#nonDiv {
+    background-color: #ff6100;
+    width: 200px;
+    height: 300px;
+}
+
+#footerContent {
+    background-color: black;
+}
+
+#footerBody {
+    background-color: white;
+}
+
+#SlideLogo {
+    height: 100px;
+    width: 100px;
+}
+
+#SlideContent {
+    color: black;
+    background-color: white;
+    width: border-box;
+    border-radius: 22px;
+    font-family: fantasy;
+    /*align-content: center;*/
+}
+
+#frontContent {
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+#userLoginForm {
+    background-color: black;
+}
+
+#userContent {
+    color: white;
+}
+
+#signUpForm {
+    width: 100%;
+    /*width: 400px;*/
+}
+
+#Home {
+
+}
+
+#UserSignInForm {
+    width: 100%;
+}
